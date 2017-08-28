@@ -1,0 +1,42 @@
+{
+	"name": "cs-make-key",
+	"version": "1.0.0",
+	"description": "make a repeatable key from an object",
+	"main": "lib/index.js",
+	"scripts": {
+		"help": "build-scripts help",
+		"scripts": "build-scripts scripts",
+		"resources": "build-scripts resources",
+		"compile": "build-scripts compile",
+		"test": "build-scripts test",
+		"commit": "build-scripts commit",
+		"patch": "build-scripts patch",
+		"push": "build-scripts push",
+		"patch-push": "build-scripts patch-push",
+		"clean": "build-scripts clean",
+		"zip": "build-scripts zip",
+		"package-lambda": "build-scripts package-lambda",
+		"upload-lambda": "build-scripts upload-lambda"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ControlSpaceSoftware/cs-make-key.git"
+	},
+	"author": "javadoug",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ControlSpaceSoftware/cs-make-key/issues"
+	},
+	"homepage": "https://github.com/ControlSpaceSoftware/cs-make-key#readme",
+	"dependencies": {
+		"md5": "^2.2.1"
+	},
+	"devDependencies": {
+		"build-scripts": "github:ControlSpaceSoftware/build-scripts"
+	},
+	"babel": {
+		"presets": [
+			"env"
+		]
+	}
+}
